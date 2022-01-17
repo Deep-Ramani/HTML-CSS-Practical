@@ -1,0 +1,39 @@
+/* hide the blue outline */
+.form-control:focus {
+    outline: 0 !important;
+    border-color: initial;
+    box-shadow: none;
+}
+
+.searchbtn{
+    background-color: white !important;
+    color: lightblue !important;
+}
+
+#searchbtn:hover{
+    background-color: white ;
+    color: lightblue;
+}
+.input-group-append{
+    color: blue !important;
+}
+
+
+/* Second Raw */
+
+.main{
+    background-color: gray;
+    display: inline-block;
+    
+}
+.content{
+    background-color: white;
+}
+
+.cart1{
+    display: inline-block;
+}
+.cart1 a{
+    text-decoration: none;
+    margin-left: 30px;
+}
